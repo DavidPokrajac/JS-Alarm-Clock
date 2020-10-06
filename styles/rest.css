@@ -1,0 +1,36 @@
+/* Styling up current date, actual time and author credentials */
+
+#days{ 
+    position: relative; 
+    bottom: 185px; 
+    background-color: blanchedalmond; 
+    border-radius: 20px;
+}
+
+#days span{ 
+    padding: 3px 8px;
+}
+
+#date{ 
+    position: relative; 
+    width: 300px; 
+    top: -175px; 
+    margin: -10px auto 0 auto; 
+    text-align: center;
+}
+
+#credentials{ 
+    background-color: gold; 
+    padding: 5px; 
+    border: 2px solid grey; 
+    font-size: 14px; 
+    display: inline-block; 
+    margin-left: 44%; 
+    animation: animate 2s 1s infinite linear;
+}
+            
+@keyframes animate{
+    0% { background-color: gold; }
+    25% { background-color: white; }
+    100% { background-color: gold; }
+}
